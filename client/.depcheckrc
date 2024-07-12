@@ -1,0 +1,7 @@
+ignores:
+  - 'depcheck'
+  - 'prettier'
+  - 'typescript'
+  - 'webpack-cli'
+  - 'webpack-dev-server'
+  

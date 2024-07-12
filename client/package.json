@@ -1,0 +1,37 @@
+{
+  "name": "langchain-openai-chat-client",
+  "version": "1.0.0",
+  "description": "LangChain with OpenAI Chat Client",
+  "scripts": {
+    "start": "webpack serve --mode development --open --port 2000",
+    "build": "webpack --mode production",
+    "check": "eslint . && prettier . --check --ignore-path ../.gitignore && depcheck",
+    "reformat": "prettier . --write --ignore-path ../.gitignore"
+  },
+  "eslintIgnore": [
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "babel-loader": "^8.3.0",
+    "depcheck": "^1.4.7",
+    "eslint": "^8.57.0",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
